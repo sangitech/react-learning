@@ -1,0 +1,12 @@
+.text-right {
+  text-align: right;
+}
+
+
+@media only screen and (max-width: 991px) {
+  .sorting-list--grid.text-right,
+  .recommended .col-lg-3 {
+    text-align: center !important;
+    margin: 10px 0;
+  }
+}
